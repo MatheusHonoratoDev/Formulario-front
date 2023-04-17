@@ -42,11 +42,11 @@
           <div class="formSolicitacaoBloco2">
             <div class="inputDados">
               <label for="dataAtual">Nome</label>
-              <input type="text" id="dataAtual" class="inputSoli" />
+              <input type="text" id="name" class="inputSoli" />
             </div>
             <div class="inputDados">
                 <label for="numero">CPF</label>
-                <input type="text" id="cpf" class="inputSoli"  />
+                <input type="text" id="personCPF" class="inputSoli"  />
                 <span id="cpf-error" class="error"></span>
               </div>              
           </div>
@@ -73,11 +73,11 @@
           <div class="formSolicitacaoBloco2">
             <div class="inputDados">
               <label for="dataAtual">Celular</label>
-              <input type="text" id="dataAtual" class="inputSoli" />
+              <input type="text" id="personNumber" class="inputSoli" />
             </div>
             <div class="inputDados">
               <label for="numero">E-mail</label>
-              <input type="number" id="numero" class="inputSoli" />
+              <input type="text" id="email" class="inputSoli" />
             </div>
           </div>
         </div>
@@ -121,6 +121,9 @@
           </div>
         </div>
       </div>
+    </div>
+    <div>
+      <button onclick="cadastrarDados()">Submite</button>
     </div>
   </body>
 
